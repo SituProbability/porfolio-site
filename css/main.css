@@ -1,0 +1,107 @@
+
+/*
+*
+* Header
+*
+*/
+.header_logo{
+	margin-left:20px;
+}
+.header_titles{
+	text-transform: capitalize;
+}
+.header_title{
+	direction:rtl;
+	font-family: Monospace, serif;
+	margin-right:40px;
+}
+.header_subtitle{
+	direction:rtl;
+	margin-right:40px;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+
+/*
+ *
+ * Carousel
+ *
+ */
+.carousel-caption{
+	top:50%;
+	transform:translateY(-50%);
+	text-transform:uppercase;
+}
+.btn{
+	font-size:18px;
+	color:#FFF;
+	padding:12px 22px;
+	background-color:#5E4485;
+	border:2px solid #FFF;
+}
+	
+.btn:hover{
+	color:#FF0000;
+	background-color:#0000FF;
+}
+
+/*
+ *
+ * Works
+ *
+ */
+.container h2{
+	text-decoration: underline;
+	color:#7d97ad;
+ }
+.container{
+	margin:4% auto;
+}
+.container .row div p {
+	text-align: justify;
+}
+h2{
+	margin:4% auto;
+}
+h4{
+	margin-bottom:4%;
+}
+.icon{
+	
+	max-width:195px;
+}
+ 
+/*
+ *
+ * Footer
+ *
+ */
+footer{
+	margin-top:20px;
+	margin-bottom:20px;
+	background-color:#2d3c49;
+	color:#FFF;
+	padding:5px;
+}
+
+.fa{
+	padding:15px;
+	font-size:25px;
+	color:#FFF;
+}
+
+.fa:hover{
+	color:#D5D5D5;
+	text-decoration:none;
+}
+
+@media (max-width:600px){
+	.carousel-caption{
+		display:none;
+	}
+}
+
